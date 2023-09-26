@@ -100,8 +100,6 @@ body{
 .navbar a:hover ,
 .navbar a.active {
     color: #00abf0;
-    font-weight: 800;
-    font-size:28px;
 }
 
 .nav-hidden{
@@ -216,7 +214,7 @@ position: relative;
     align-items: center;
     width: 150px;
     height: 100%;
-   background:#00abf0;
+   	background:#00abf0;
     border: 2px solid #00abf0;
     border-radius: 8px;
     font-size: 20px;
@@ -340,14 +338,14 @@ position: relative;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 2rem;
+  /*  gap: 2rem;*/
     background: #081b29;
     padding:3% 10% 6rem;
 }    
 
 .heading{
     font-size: 4rem;
-    margin-bottom: 3rem;
+    margin: 3rem auto;
     text-align: center;
 }
 
@@ -495,13 +493,13 @@ span{
 
 .skills{
     min-height: auto;
-    padding: 0% 10% 7rem;
+    padding: 5% 10% 7rem;
     background: #081b29;
+    margin:30px auto;
 }
 
 .skills .skills-row{
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 5rem;
 }
 
@@ -684,6 +682,11 @@ outline: none;
 	.home{
 	align-items: flex-start;
 	padding: 100px 10%;
+	}
+	
+	.home-content .btn-box{
+	justify-content: space-around;
+	width: 325px;
 	}
 	
 	.education .education-row{
