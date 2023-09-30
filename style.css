@@ -638,6 +638,23 @@ outline: none;
 }
 
            /* --------contect section design end------*/
+           
+           /* --------footer design start------*/
+  
+footer {
+	text-align:center;
+	margin-block:10px;
+}
+footer p{
+color:gray;
+}
+footer p a{
+color:White;
+text-decoration:none;
+color:gray;
+}
+           
+           /* --------fiiter design end------*/
            /* --------responsive for mobile start------*/
            	
            	
