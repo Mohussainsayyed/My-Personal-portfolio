@@ -1,3 +1,7 @@
+	let loder = document.getElementsByClassName(".preloder")
+	window.addEventListener("load",()=>{
+		loder.style.display = "none";
+	});
 
 	/*for nav scroll down show */
 	const nav = document.querySelector(".header");
@@ -59,8 +63,22 @@
 	  			/*animation gsap start*/
 	  			
 	  			let tl = gsap.timeline();
+	  			tl.to(".preloder h1",{
+	  			delay:1,
+	  			opacity:1,
+	  			duration:1,
+	  			});
+	  			
+	  			tl.to(".preloder ",{
+	  			delay:.5,
+	  			opacity:0,
+	  			display:"none",
+	  			duration:1,
+	  			});
 	  			
 	  			tl.from(".home h1,.home h3,.home p",{
+	  			delay:.5,
+	  			delay:"-1",
 	  			stagger:.4,
 	  			x:-100,
 	  			opacity:0,
